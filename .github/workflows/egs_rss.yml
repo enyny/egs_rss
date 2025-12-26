@@ -1,0 +1,37 @@
+name: Epic Free Games RSS
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install requests feedgen
+
+      - name: Generate RSS
+        run: |
+          python egs_rss.py
+
+      - name: Commit and push RSS
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add epic_free_games.xml
+          git commit -m "Update Epic Free Games RSS" || true
+          git push
+
