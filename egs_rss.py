@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import requests
-import json
 from datetime import datetime, timedelta, timezone
+from collections import defaultdict
 from feedgen.feed import FeedGenerator
 
 URL = "https://raw.githubusercontent.com/josephmate/EpicFreeGamesList/refs/heads/main/epic_free_games.json"
@@ -14,12 +14,14 @@ cutoff = today - timedelta(days=30)
 # Fetch JSON
 data = requests.get(URL, timeout=15).json()
 
-# Filter + sort (newest first)
-items = []
+# Group items by freeDate
+grouped = defaultdict(list)
+
 for item in data:
     title = item.get("gameTitle")
     free_date_str = item.get("freeDate")
     link = item.get("epicStoreLink")
+    platform = item.get("platform", "").lower()
 
     if not title or not free_date_str or not link:
         continue
@@ -28,33 +30,50 @@ for item in data:
     if free_date < cutoff:
         continue
 
-    items.append((free_date, item))
+    grouped[free_date_str].append({
+        "title": title,
+        "platform": platform,
+        "link": link
+    })
 
-items.sort(key=lambda x: x[0], reverse=True)
+# Sort dates newest first
+sorted_dates = sorted(grouped.keys(), reverse=True)
 
-# Build RSS
+# Build RSS feed
 fg = FeedGenerator()
-fg.id("epic-free-games")
-fg.title("Epic Free Games – Last 30 Days")
+fg.id("epic-free-games-grouped")
+fg.title("Epic Free Games (30 days)")
 fg.link(href="https://store.epicgames.com/")
-fg.description("Epic free games from the last 30 days")
+fg.description("Epic free games grouped by freeDate (last 30 days)")
 fg.language("en")
 
-for free_date, item in items:
-    title = item["gameTitle"]
-    free_date_str = item["freeDate"]
-    link = item["epicStoreLink"]
-    platform = item.get("platform", "").lower()
+for free_date_str in sorted_dates:
+    entries = grouped[free_date_str]
 
-    body = "<pre>" + json.dumps(item, indent=2) + "</pre>"
+    # Unique titles (preserve order)
+    seen_titles = []
+    for e in entries:
+        if e["title"] not in seen_titles:
+            seen_titles.append(e["title"])
+
+    # Title: quoted, comma-separated
+    rss_title = ", ".join(f'"{t}"' for t in seen_titles)
+
+    # Body
+    lines = []
+    guids = []
+    for e in entries:
+        lines.append(
+            f'{e["title"]} - {e["platform"]}: '
+            f'<a href="{e["link"]}">Link</a>'
+        )
+        guids.append(e["link"])
 
     fe = fg.add_entry()
-    fe.id(f"{title}|{free_date_str}")
-    fe.title(f"{platform} - {title}" if platform else title)
-    fe.link(href=link)
-    fe.description(
-        f'<p><a href="{link}">Open on Epic Games Store</a></p>{body}'
-    )
+    fe.id("|".join(guids) + f"|{free_date_str}")  # stable GUID
+    fe.title(rss_title)
+    fe.link(href=guids[0])
+    fe.description("<br>".join(lines))
 
     fe.pubDate(
         datetime.strptime(free_date_str, "%Y-%m-%d").replace(
@@ -65,5 +84,5 @@ for free_date, item in items:
 # Write RSS
 fg.rss_file(RSS_FILE)
 
-print(f"RSS generated with {len(items)} items")
+print(f"RSS generated with {len(sorted_dates)} items")
 
