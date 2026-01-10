@@ -78,15 +78,11 @@ https://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# http://cdn10jtedge.indihometv.com/atm/DASH/KOMPAS_TV/manifest.mpd
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-#EXTINF:-1 ch-number="11" tvg-id="Metro TV" tvg-name="Metro TV" tvg-logo="https://images.indihometv.com/assets/88_METROTV_2025_03_17_14_51_08.png", Metro TV
-https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
-	# #KODIPROP:inputstreamaddon=inputstream.adaptive
-	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
-	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HgAYet4dTgGPjjtrVlyEdg","k":"ncOyZuVt5mIY9DXuOOy23A"}],"type":"temporary"}
-	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-	# https://cdn08jtedge.indihometv.com/dassdvr/133/metrotv/manifest.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="11" tvg-id="iNews" tvg-name="iNews" tvg-logo="https://images.indihometv.com/assets/88_INEWS_2025_03_17_15_13_44.png", iNews
+http://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTINF:-1 ch-number="12" tvg-id="TVRI" tvg-name="TVRI" tvg-logo="https://images.indihometv.com/assets/88_TVRI_2025_03_17_14_57_26.png", TVRI
@@ -97,7 +93,17 @@ https://op-group1-swiftservesd-1.dens.tv/s/s11/01.m3u8
 	# http://cdn10jtedge.indihometv.com/atm/DASH/TVRI/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-#EXTINF:-1 ch-number="13" tvg-id="MDTV" tvg-name="MDTV" tvg-logo="https://images.indihometv.com/assets/88_MDTV_2025_03_17_14_56_36.png", MDTV
+#EXTINF:-1 ch-number="13" tvg-id="Metro TV" tvg-name="Metro TV" tvg-logo="https://images.indihometv.com/assets/88_METROTV_2025_03_17_14_51_08.png", Metro TV
+https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HgAYet4dTgGPjjtrVlyEdg","k":"ncOyZuVt5mIY9DXuOOy23A"}],"type":"temporary"}
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/metrotv/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="14" tvg-id="MDTV" tvg-name="MDTV" tvg-logo="https://images.indihometv.com/assets/88_MDTV_2025_03_17_14_56_36.png", MDTV
 https://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -107,7 +113,7 @@ https://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
 	# https://cdn08jtedge.indihometv.com/dassdvr/133/net/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-#EXTINF:-1 ch-number="14" tvg-id="Moji" tvg-name="Moji" tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png", MOJI
+#EXTINF:-1 ch-number="15" tvg-id="Moji" tvg-name="Moji" tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png", MOJI
 https://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -121,22 +127,16 @@ https://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"2WqBqIf9RvGxjh/UjC7rgQ","k":"+4lHqIBMh0zA8Lcb22CcoA"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTINF:-1 ch-number="15" tvg-id="Mentari TV" tvg-name="Mentari TV" tvg-logo="https://images.indihometv.com/assets/88_MENTARITV_2025_03_17_15_21_21.png", Mentari TV
+#EXTINF:-1 ch-number="16" tvg-id="Mentari TV" tvg-name="Mentari TV" tvg-logo="https://images.indihometv.com/assets/88_MENTARITV_2025_03_17_15_21_21.png", Mentari TV
 https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-#EXTINF:-1 ch-number="16" tvg-id="RTV" tvg-name="RTV" tvg-logo="https://images.indihometv.com/assets/88_RTV_2025_03_17_14_55_38.png", Rajawali TV
+#EXTINF:-1 ch-number="17" tvg-id="RTV" tvg-name="RTV" tvg-logo="https://images.indihometv.com/assets/88_RTV_2025_03_17_14_55_38.png", Rajawali TV
 https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# http://cdn10jtedge.indihometv.com/atm/DASH/RAJAWALI_TV/manifest.mpd
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-#EXTINF:-1 ch-number="17" tvg-id="iNews" tvg-name="iNews" tvg-logo="https://images.indihometv.com/assets/88_INEWS_2025_03_17_15_13_44.png", iNews
-http://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTINF:-1 ch-number="18" tvg-id="CNN Indonesia" tvg-name="CNN Indonesia" tvg-logo="https://images.indihometv.com/assets/88_CNNINDO_2025_03_17_15_22_37.png", CNN Indonesia
