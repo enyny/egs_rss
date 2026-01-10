@@ -31,7 +31,7 @@ http://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=3ea563c558614b5cba7a826695b5912b&key=58863e5bbef02302474a2b521f900eea
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"PqVjxVhhS1y6eoJmlbWRKw","k":"WIY+W77wIwJHSitSH5AO6g"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="5" tvg-id="ANTV" tvg-name="ANTV" tvg-logo="https://images.indihometv.com/assets/88_ANTV_2025_03_17_14_52_46.png", ANTV
 https://cdn08jtedge.indihometv.com/dassdvr/130/antv/manifest.mpd
@@ -56,7 +56,7 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist_w559456341_b744100_sle
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-	# #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=c59d66dbf59245e9b14cb47862c456b7&key=247bb0f6d1c9d64f589d8b2f8e631a53
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"xZ1m2/WSRemxTLR4YsRWtw","k":"JHuw9tHJ1k9YnYsvjmMaUw"}],"type":"temporary"}
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# https://cdn08jtedge.indihometv.com/dassdvr/133/trans7/manifest_wuseetv.mpd
 
@@ -66,7 +66,7 @@ https://video.detik.com/transtv/smil:transtv.smil/chunklist_w1059179862_b744100_
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-	# #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=685d124959a94f89872760636a868956&key=5cda423e983403ee02b24ac8643470ee
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"aF0SSVmpT4mHJ2BjaoaJVg","k":"XNpCPpg0A+4CskrIZDRw7g"}],"type":"temporary"}
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# https://cdn08jtedge.indihometv.com/dassdvr/133/transtv/manifest_wuseetv.mpd
 
@@ -84,7 +84,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-	# #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1e00187ade1d4e018f8e3b6b565c8476&key=9dc3b266e56de66218f435ee38ecb6dc
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HgAYet4dTgGPjjtrVlyEdg","k":"ncOyZuVt5mIY9DXuOOy23A"}],"type":"temporary"}
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# https://cdn08jtedge.indihometv.com/dassdvr/133/metrotv/manifest.mpd
 
@@ -103,7 +103,7 @@ https://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
-	# #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=b6568e0d0a23406ebbe24619fdd063ed&key=4d6a505b7361c5e1b07ffa72155d045f
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"tlaODQojQG674kYZ/dBj7Q","k":"TWpQW3NhxeGwf/pyFV0EXw"}],"type":"temporary"}
 	# https://cdn08jtedge.indihometv.com/dassdvr/133/net/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
@@ -112,14 +112,14 @@ https://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-	# #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=aaf11266607941dd825798dd0a79a9ad&key=00f0ba9559143a93a6fcad3d1b88a0b2
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"qvESZmB5Qd2CV5jdCnmprQ","k":"APC6lVkUOpOm/K09G4igsg"}],"type":"temporary"}
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d96a81a887fd46f1b18e1fd48c2eeb81&key=fb8947a8804c874cc0f0b71bdb609ca0
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"2WqBqIf9RvGxjh/UjC7rgQ","k":"+4lHqIBMh0zA8Lcb22CcoA"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="15" tvg-id="Mentari TV" tvg-name="Mentari TV" tvg-logo="https://images.indihometv.com/assets/88_MENTARITV_2025_03_17_15_21_21.png", Mentari TV
 https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd
@@ -144,7 +144,7 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1138584544_b384
 	# #KODIPROP:inputstreamaddon=inputstream.adaptive
 	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-	# #KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=43693e36db074e569d230b5cf04168bd&key=dcc557dd567ffd42a68ece305321f3b0
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Q2k+NtsHTladIwtc8EFovQ","k":"3MVX3VZ//UKmjs4wUyHzsA"}],"type":"temporary"}
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 	# https://cdn08jtedge.indihometv.com/dassdvr/133/cnnindonesia/manifest.mpd
 
@@ -188,7 +188,7 @@ https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c68587f789fe018842126
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=79698301a95740009531b1d53e3ad5fe&key=7240a4a29a54e6089b108fbcb95cb265
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"eWmDAalXQACVMbHVPjrV/g","k":"ckCkoppU5gibEI+8uVyyZQ"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="25" tvg-id="Flik" tvg-name="Flik" tvg-logo="https://images.indihometv.com/assets/88_FLIK_2025_03_17_15_02_50.png", Flik
 https://cdn08jtedge.indihometv.com/dassdvr/133/flik_dash/manifest_wuseetv.mpd
@@ -196,7 +196,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/flik_dash/manifest_wuseetv.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=1d7ddbeb304e46f38192f31d7d91bfc5&key=1c524bbe404124d0a4e24bfa75491ca2
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HX3b6zBORvOBkvMdfZG/xQ","k":"HFJLvkBBJNCk4kv6dUkcog"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="26" tvg-id="IMC" tvg-name="IMC" tvg-logo="https://images.indihometv.com/assets/88_IMC_2025_03_17_14_53_15.png", IMC
 https://cdn08jtedge.indihometv.com/dassdvr/130/imc/manifest.mpd
@@ -204,7 +204,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/130/imc/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=2f4c7790660c4a0ea82f38ca1998da13&key=9186a4ec6c2c2af731de820bf517e4e0
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"L0x3kGYMSg6oLzjKGZjaEw","k":"kYak7GwsKvcx3oIL9Rfk4A"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="27" tvg-id="Fight Sports" tvg-name="Fight Sports" tvg-logo="https://images.indihometv.com/assets/88_FIGHTSPORT_2025_03_17_15_23_23.png", Fight Sport
 https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
@@ -218,7 +218,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/194/useesport/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=593102163def4d25985baf7322d8a8dc&key=4d9def5cf7a8e57d71eea821e21d6580
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"WTECFj3vTSWYW69zItio3A","k":"TZ3vXPeo5X1x7qgh4h1lgA"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="29" tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://images.indihometv.com/assets/88_SPOTV_2025_03_17_14_58_39.png", SPOTV
 https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
@@ -226,7 +226,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=0a47994d99d44eeaba5e015a41dc3085&key=4aa9da8d82cb4edfc3f558857453d6ed
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"CkeZTZnUTuq6XgFaQdwwhQ","k":"SqnajYLLTt/D9ViFdFPW7Q"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="30" tvg-id="SPOTV 2" tvg-name="SPOTV 2" tvg-logo="https://images.indihometv.com/assets/88_SPOTV2_2025_03_17_14_59_39.png", SPOTV 2
 https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
@@ -234,7 +234,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=834ec3cbface4fe992e995a32d35f587&key=e0a97198d9f2dfcb0a0483cd4b04414b
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"g07Dy/rOT+mS6ZWjLTX1hw","k":"4KlxmNny38sKBIPNSwRBSw"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTINF:-1 ch-number="31" tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://images.indihometv.com/assets/88_NBATV_2025_03_17_15_32_37.png", NBA
 https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
@@ -244,7 +244,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=4035323a7fe64767ab8f3345ed9b93be&key=67377b8d429603f8bf30c161bda269e5
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"QDUyOn/mR2erjzNF7ZuTvg","k":"Zzd7jUKWA/i/MMFhvaJp5Q"}],"type":"temporary"}
 #EXTINF:-1 ch-number="32" catchup-type="default" catchup-days="7" catchup-source="https://fta4-cdn-flr.visionplus.id/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd?start=${start}&end=${end}" audio-track="3" tvg-name="Soccer Channel" tvg-id="Soccer.Channel.id" tvg-logo="https://www.visionplus.id/images/repository/771/576771-SQUARE-l.jpg", Soccer Channel
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 
@@ -253,7 +253,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=39c4dc6704cf4ceea2fd4863b88d8a7d&key=4e9d7954c2ff46759289da4fc9f018ea
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"OcTcZwTPTO6i/UhjuI2KfQ","k":"Tp15VML/RnWSidpPyfAY6g"}],"type":"temporary"}
 #EXTINF:-1 ch-number="33" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.id" tvg-name="Sportstars" tvg-logo="https://www.visionplus.id/images/repository/774/576774-SQUARE-l.jpg", Sportstars
 https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
 
@@ -262,7 +262,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=d19fdcc1de0245edbbfcfaa31b3385ed&key=d0bfa058d6f3d7c45c5244820dbda8f3
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"0Z/cwd4CRe27/PqjGzOF7Q","k":"0L+gWNbz18RcUkSCDb2o8w"}],"type":"temporary"}
 #EXTINF:-1 ch-number="34" catchup-type="default" catchup-days="7" catchup-source="https://fta3-cdn-flr.visionplus.id/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd?start=${start}&end=${end}" tvg-id="Sportstars.2.id" tvg-name="Sportstars 2" tvg-logo="https://www.visionplus.id/images/repository/775/576775-SQUARE-l.jpg", Sportstars 2
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/c4d0918d98cd4bf8a77850ed16696110/index.mpd
 
@@ -271,7 +271,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/c4d0918d98cd4bf8a77850ed16696110/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=ac900f4053fa420095fb84f491f7a331&key=59748725964ff275e524af73792c8ad4
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"rJAPQFP6QgCV+4T0kfejMQ","k":"WXSHJZZP8nXlJK9zeSyK1A"}],"type":"temporary"}
 #EXTINF:-1 ch-number="35" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.3.id" tvg-name="Sportstars 3" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_99.png", Sportstars 3
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/9a06560796f441a3981cd5a27c7d917f/index.mpd
 
@@ -280,6 +280,6 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/9a06560796f441a3981cd5a27c7d917f/in
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=e02fc4146be34c2db75a847a6f5e95e9&key=a25a6118776646a690b2931609264bd5
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"4C/EFGvjTC23WoR6b16V6Q","k":"olphGHdmRqaQspMWCSZL1Q"}],"type":"temporary"}
 #EXTINF:-1 ch-number="36" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.4.id" tvg-name="Sportstars 4" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_88.png", Sportstars 4
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/da31f135bd6c4fe0b7dc4262436277fb/index.mpd
