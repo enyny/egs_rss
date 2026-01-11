@@ -245,7 +245,7 @@ https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"QDUyOn/mR2erjzNF7ZuTvg","k":"Zzd7jUKWA/i/MMFhvaJp5Q"}],"type":"temporary"}
-#EXTINF:-1 ch-number="32" catchup-type="default" catchup-days="7" catchup-source="https://fta4-cdn-flr.visionplus.id/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd?start=${start}&end=${end}" audio-track="3" tvg-name="Soccer Channel" tvg-id="Soccer.Channel.id" tvg-logo="https://www.visionplus.id/images/repository/771/576771-SQUARE-l.jpg", Soccer Channel
+#EXTINF:-1 ch-number="32" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" audio-track="3" tvg-name="Soccer Channel" tvg-id="Soccer.Channel.id" tvg-logo="https://www.visionplus.id/images/repository/771/576771-SQUARE-l.jpg", Soccer Channel
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
@@ -263,7 +263,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/in
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"0Z/cwd4CRe27/PqjGzOF7Q","k":"0L+gWNbz18RcUkSCDb2o8w"}],"type":"temporary"}
-#EXTINF:-1 ch-number="34" catchup-type="default" catchup-days="7" catchup-source="https://fta3-cdn-flr.visionplus.id/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd?start=${start}&end=${end}" tvg-id="Sportstars.2.id" tvg-name="Sportstars 2" tvg-logo="https://www.visionplus.id/images/repository/775/576775-SQUARE-l.jpg", Sportstars 2
+#EXTINF:-1 ch-number="34" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.2.id" tvg-name="Sportstars 2" tvg-logo="https://www.visionplus.id/images/repository/775/576775-SQUARE-l.jpg", Sportstars 2
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/c4d0918d98cd4bf8a77850ed16696110/index.mpd
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
