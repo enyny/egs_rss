@@ -58,7 +58,7 @@ https://video.detik.com/trans7/smil:trans7.smil/chunklist_w559456341_b744100_sle
 	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"xZ1m2/WSRemxTLR4YsRWtw","k":"JHuw9tHJ1k9YnYsvjmMaUw"}],"type":"temporary"}
 	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
-	# https://cdn08jtedge.indihometv.com/dassdvr/133/trans7/manifest_wuseetv.mpd
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/trans7_dash/manifest_wuseetv.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
 #EXTINF:-1 ch-number="9" tvg-id="TransTV" tvg-name="TransTV" tvg-logo="https://images.indihometv.com/assets/88_TRANSTV_2025_03_17_14_51_34.png", TransTV
