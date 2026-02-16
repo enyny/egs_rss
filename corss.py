@@ -115,8 +115,8 @@ def create_rss(grouped_games):
         description_html = "<br>".join(description_parts)
 
         # Add description and content:encoded
-        #ET.SubElement(item, "description").text = f"<![CDATA[{description_html}"
-        ET.SubElement(item, "{http://purl.org/rss/1.0/modules/content/}encoded").text = f"<![CDATA[{description_html}"
+        ET.SubElement(item, "description").text = f"<![CDATA[{description_html}"
+        #ET.SubElement(item, "{http://purl.org/rss/1.0/modules/content/}encoded").text = f"<![CDATA[{description_html}"
 
     return ET.ElementTree(rss)
 
