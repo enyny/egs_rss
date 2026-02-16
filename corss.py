@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import defaultdict
-from email.utils import format_datetime
+from feedgen.feed import FeedGenerator
 import html
 
 # Constants
 API_URL = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions"
 STORE_URL = "https://store.epicgames.com/p/"
-CHECKOUT_BASE = "https://store.epicgames.com/purchase?offers="
+RSS_FILE = "epicFreeGamesCO.xml"
 MAX_ITEMS = 30
 
 def fetch_free_games():
@@ -62,15 +61,16 @@ def group_by_date(games):
         grouped[game["startDate"]].append(game)
     return grouped
 
-def create_rss(grouped_games):
-    """Generate RSS XML tree for grouped free games."""
-    rss = ET.Element("rss", version="2.0")
-    channel = ET.SubElement(rss, "channel")
-    ET.SubElement(channel, "title").text = "Epic Games Free Games"
-    ET.SubElement(channel, "link").text = STORE_URL
-    ET.SubElement(channel, "description").text = "Automatically generated feed of free Epic Games"
+def generate_feed(grouped_games):
+    """Generate RSS feed using FeedGenerator."""
+    fg = FeedGenerator()
+    fg.id("epic-free-games")
+    fg.title("Epic Free Games")
+    fg.link(href=STORE_URL)
+    fg.description("Automatically generated feed of free Epic Games")
+    fg.language("en")
 
-    # Sort promotion dates descending, limit to MAX_ITEMS
+    # Sort dates newest first and limit
     sorted_dates = sorted(
         grouped_games.keys(),
         key=lambda d: datetime.fromisoformat(d.replace("Z", "+00:00")),
@@ -82,54 +82,48 @@ def create_rss(grouped_games):
         if not games:
             continue
 
-        item = ET.SubElement(channel, "item")
-        dt = datetime.fromisoformat(start_date.replace("Z", "+00:00"))
-        ET.SubElement(item, "pubDate").text = format_datetime(dt)
+        # Unique game titles for RSS item title
+        titles = []
+        for g in games:
+            if g["title"] not in titles:
+                titles.append(g["title"])
+        rss_title = ", ".join(titles[:2]) + (" and more" if len(titles) > 2 else "")
 
-        # Generate item title
-        titles = [g["title"] for g in games]
-        article_title = ", ".join(titles[:2]) + (" and more" if len(titles) > 2 else "")
-        ET.SubElement(item, "title").text = f"\n {article_title}"
-
-        description_parts = []
-        checkout_offers = []
-
-        for i, game in enumerate(games):
-            # Resolve namespace and id
-            namespace = game.get("namespace") or (game.get("items")[0].get("namespace") if game.get("items") else None)
-            game_id = game.get("id") or (game.get("items")[0].get("id") if game.get("items") else None)
+        # Build HTML description
+        lines = []
+        guids = []
+        for g in games:
+            namespace = g.get("namespace") or (g.get("items")[0].get("namespace") if g.get("items") else None)
+            game_id = g.get("id") or (g.get("items")[0].get("id") if g.get("items") else None)
             if not (namespace and game_id):
                 continue
 
-            product_link = f"{STORE_URL}{game['pageSlug']}"
-            checkout_offers.append(f"1-{namespace}-{game_id}")
-
-            safe_title = html.escape(game["title"])
-            description_parts.append(f'{"<br>" if i == 0 else ""}{safe_title}: <a href="{product_link}">To Game Page</a>')
+            link = f"{STORE_URL}{g['pageSlug']}"
+            lines.append(f'{html.escape(g["title"])}: <a href="{link}">Link</a>')
+            guids.append(link)
 
         # Combined checkout link
-        if checkout_offers:
-            checkout_url = CHECKOUT_BASE + "&offers=".join(checkout_offers) + "#/purchase/payment-methods"
-            description_parts.append(f'<br><a href="{checkout_url}">Checkout all free games</a>')
+        if guids:
+            checkout_offers = [f"1-{g.get('namespace')}-{g.get('id')}" for g in games if g.get('namespace') and g.get('id')]
+            if checkout_offers:
+                checkout_url = "https://store.epicgames.com/purchase?offers=" + "&offers=".join(checkout_offers) + "#/purchase/payment-methods"
+                lines.append(f'<br><a href="{checkout_url}">Checkout all free games</a>')
 
-        description_html = "<br>".join(description_parts)
+        # Create RSS entry
+        fe = fg.add_entry()
+        fe.id("|".join(guids) + f"|{start_date}")
+        fe.title(rss_title)
+        fe.link(href=guids[0] if guids else STORE_URL)
+        fe.description("<br>".join(lines))
+        fe.pubDate(datetime.fromisoformat(start_date.replace("Z", "+00:00")).replace(tzinfo=timezone.utc))
 
-        # Add description and content:encoded
-        #ET.SubElement(item, "description").text = f"<![CDATA[{description_html}"
-        ET.SubElement(item, "{http://purl.org/rss/1.0/modules/content/}encoded").text = f"<![CDATA[{description_html}"
-
-    return ET.ElementTree(rss)
+    fg.rss_file(RSS_FILE)
+    print(f"RSS generated: {RSS_FILE} ({len(sorted_dates)} items)")
 
 def main():
     games = fetch_free_games()
-    if not games:
-        print("No free games found to generate RSS feed")
-        return
-
     grouped = group_by_date(games)
-    rss_tree = create_rss(grouped)
-    rss_tree.write("epicFreeGamesCO.xml", encoding="utf-8", xml_declaration=True)
-    print("RSS feed generated: epicFreeGamesCO.xml")
+    generate_feed(grouped)
 
 if __name__ == "__main__":
     main()
