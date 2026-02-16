@@ -1,4 +1,4 @@
-name: Epic Free Games RSS
+name: Generate epic_free_games.xml
 
 on:
   schedule:
