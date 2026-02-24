@@ -1,0 +1,277 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://www.open-epg.com/files/indonesia3.xml.gz, https://github.com/apistech/project/raw/main/ApisTECH.xml.gz"
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="1" tvg-id="Indosiar" tvg-name="Indosiar" tvg-logo="https://images.indihometv.com/assets/88_INDOSIAR_2025_03_17_14_54_45.png", Indosiar
+https://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/indosiar/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="2" tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://images.indihometv.com/images/channels/imageCir_RCTI-180x180_2025_11_06_13_09_06.jpg", RCTI
+http://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="3" tvg-id="SCTV" tvg-name="SCTV" tvg-logo="https://images.indihometv.com/assets/88_SCTV_2025_03_17_14_53_51.png", SCTV
+https://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/sctv/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="4" tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://images.indihometv.com/images/channels/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg", MNC
+http://cdn10jtedge.indihometv.com/atm/DASH/mnctv/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"PqVjxVhhS1y6eoJmlbWRKw","k":"WIY+W77wIwJHSitSH5AO6g"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="5" tvg-id="ANTV" tvg-name="ANTV" tvg-logo="https://images.indihometv.com/assets/88_ANTV_2025_03_17_14_52_46.png", ANTV
+https://cdn08jtedge.indihometv.com/dassdvr/130/antv/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="6" tvg-id="GTV" tvg-name="GTV" tvg-logo="https://images.indihometv.com/images/channels/imageCir_GTV-180x180_2025_11_06_13_07_56.jpg", GTV
+http://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="7" tvg-id="TVOne" tvg-name="TVOne" tvg-logo="https://images.indihometv.com/assets/88_TVONE_2025_03_17_14_49_56.png", TV One
+https://op-group1-swiftservehd-1.dens.tv/h/h40/01.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/tvone/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="8" tvg-id="Trans7" tvg-name="Trans7" tvg-logo="https://images.indihometv.com/assets/88_TRANS7_2025_03_19_08_29_53.png", Trans7
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w559456341_b744100_sleng.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"xZ1m2/WSRemxTLR4YsRWtw","k":"JHuw9tHJ1k9YnYsvjmMaUw"}],"type":"temporary"}
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/trans7_dash/manifest_wuseetv.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="9" tvg-id="TransTV" tvg-name="TransTV" tvg-logo="https://images.indihometv.com/assets/88_TRANSTV_2025_03_17_14_51_34.png", TransTV
+https://video.detik.com/transtv/smil:transtv.smil/chunklist_w1059179862_b744100_sleng.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"aF0SSVmpT4mHJ2BjaoaJVg","k":"XNpCPpg0A+4CskrIZDRw7g"}],"type":"temporary"}
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/transtv/manifest_wuseetv.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="10" tvg-id="Kompas TV" tvg-name="Kompas TV" tvg-logo="https://images.indihometv.com/assets/88_KOMPASTV_2025_03_17_14_56_36.png", Kompas TV
+https://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/KOMPAS_TV/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="11" tvg-id="iNews" tvg-name="iNews" tvg-logo="https://images.indihometv.com/assets/88_INEWS_2025_03_17_15_13_44.png", iNews
+http://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="12" tvg-id="TVRI" tvg-name="TVRI" tvg-logo="https://images.indihometv.com/assets/88_TVRI_2025_03_17_14_57_26.png", TVRI
+https://op-group1-swiftservesd-1.dens.tv/s/s11/01.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/TVRI/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="13" tvg-id="Metro TV" tvg-name="Metro TV" tvg-logo="https://images.indihometv.com/assets/88_METROTV_2025_03_17_14_51_08.png", Metro TV
+https://op-group1-swiftservehd-1.dens.tv/h/h12/01.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HgAYet4dTgGPjjtrVlyEdg","k":"ncOyZuVt5mIY9DXuOOy23A"}],"type":"temporary"}
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/metrotv/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="14" tvg-id="MDTV" tvg-name="MDTV" tvg-logo="https://images.indihometv.com/assets/88_MDTV_2025_03_17_14_56_36.png", MDTV
+https://op-group1-swiftservesd-1.dens.tv/h/h06/01.m3u8
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"tlaODQojQG674kYZ/dBj7Q","k":"TWpQW3NhxeGwf/pyFV0EXw"}],"type":"temporary"}
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/net/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="15" tvg-id="Moji" tvg-name="Moji" tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png", MOJI
+https://op-group1-swiftservehd-1.dens.tv/h/h207/02.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"qvESZmB5Qd2CV5jdCnmprQ","k":"APC6lVkUOpOm/K09G4igsg"}],"type":"temporary"}
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# https://cdn08jtedge.indihometv.com/dassdvr/134/ochannel/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"2WqBqIf9RvGxjh/UjC7rgQ","k":"+4lHqIBMh0zA8Lcb22CcoA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="16" tvg-id="Mentari TV" tvg-name="Mentari TV" tvg-logo="https://images.indihometv.com/assets/88_MENTARITV_2025_03_17_15_21_21.png", Mentari TV
+https://cdn08jtedge.indihometv.com/dassdvr/134/mentaritv/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="17" tvg-id="RTV" tvg-name="RTV" tvg-logo="https://images.indihometv.com/assets/88_RTV_2025_03_17_14_55_38.png", Rajawali TV
+https://op-group1-swiftservehd-1.dens.tv/h/h10/01.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/RAJAWALI_TV/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#EXTINF:-1 ch-number="18" tvg-id="CNN Indonesia" tvg-name="CNN Indonesia" tvg-logo="https://images.indihometv.com/assets/88_CNNINDO_2025_03_17_15_22_37.png", CNN Indonesia
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1138584544_b384000_sleng.m3u8
+	# #KODIPROP:inputstreamaddon=inputstream.adaptive
+	# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+	# #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+	# #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Q2k+NtsHTladIwtc8EFovQ","k":"3MVX3VZ//UKmjs4wUyHzsA"}],"type":"temporary"}
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# https://cdn08jtedge.indihometv.com/dassdvr/133/cnnindonesia/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="19" tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Familly-180x180_2025_11_05_11_14_46.jpg", HBO FAMILY
+http://cdn10jtedge.indihometv.com/atm/DASH/hbofamily/manifest.mpd
+
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="20" tvg-id="HBO" tvg-name="HBO" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-180x180_2025_11_05_11_21_29.jpg", HBO
+http://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="21" tvg-id="HBO Hits" tvg-name="HBO Hits" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Hits-180x180_2025_11_05_11_23_20.jpg", HBO Hits
+http://cdn10jtedge.indihometv.com/atm/DASH/hbohits/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="22" tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://images.indihometv.com/images/channels/imageCir_HBO-Signature-180x180_2025_11_05_12_57_49.jpg", HBO Signature
+http://cdn10jtedge.indihometv.com/atm/DASH/hbosignature/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="23" tvg-id="CINEMAX" tvg-name="CINEMAX" tvg-logo="https://images.indihometv.com/images/channels/imageCir_Cinemax-180x180_2025_11_05_13_11_15.jpg", CINEMAX
+http://cdn10jtedge.indihometv.com/atm/DASH/cinemax/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.cubmu.com/
+#KODIPROP:inputstream.adaptive.stream_headers=User-agent=Xstream XGO/1.22 (Linux;Android 9) ExoPlayerLib/2.10.5
+#EXTINF:-1 ch-number="24" tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://images.indihometv.com/assets/88_THRILL_2025_03_17_14_57_55.png", Thrill
+https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c68587f789fe0188421264d560f5/manifest.mpd
+	# #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+	# http://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"eWmDAalXQACVMbHVPjrV/g","k":"ckCkoppU5gibEI+8uVyyZQ"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="25" tvg-id="Flik" tvg-name="Flik" tvg-logo="https://images.indihometv.com/assets/88_FLIK_2025_03_17_15_02_50.png", Flik
+https://cdn08jtedge.indihometv.com/dassdvr/133/flik_dash/manifest_wuseetv.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HX3b6zBORvOBkvMdfZG/xQ","k":"HFJLvkBBJNCk4kv6dUkcog"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="26" tvg-id="IMC" tvg-name="IMC" tvg-logo="https://images.indihometv.com/assets/88_IMC_2025_03_17_14_53_15.png", IMC
+https://cdn08jtedge.indihometv.com/dassdvr/130/imc/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"L0x3kGYMSg6oLzjKGZjaEw","k":"kYak7GwsKvcx3oIL9Rfk4A"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="27" tvg-id="Fight Sports" tvg-name="Fight Sports" tvg-logo="https://images.indihometv.com/assets/88_FIGHTSPORT_2025_03_17_15_23_23.png", Fight Sport
+https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="28" tvg-id="AllPlay Sports" tvg-name="AllPlay Sports" tvg-logo="https://images.indihometv.com/images/channels/imageCir_180x180-CL-Allplay-Sport_2025_10_24_15_49_25.jpg", Allplay Sport
+https://cdn08jtedge.indihometv.com/dassdvr/194/useesport/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"WTECFj3vTSWYW69zItio3A","k":"TZ3vXPeo5X1x7qgh4h1lgA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="29" tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://images.indihometv.com/assets/88_SPOTV_2025_03_17_14_58_39.png", SPOTV
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"CkeZTZnUTuq6XgFaQdwwhQ","k":"SqnajYLLTt/D9ViFdFPW7Q"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="30" tvg-id="SPOTV 2" tvg-name="SPOTV 2" tvg-logo="https://images.indihometv.com/assets/88_SPOTV2_2025_03_17_14_59_39.png", SPOTV 2
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"g07Dy/rOT+mS6ZWjLTX1hw","k":"4KlxmNny38sKBIPNSwRBSw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTINF:-1 ch-number="31" tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://images.indihometv.com/assets/88_NBATV_2025_03_17_15_32_37.png", NBA
+https://cdn08jtedge.indihometv.com/dassdvr/133/nba/manifest.mpd
+
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"QDUyOn/mR2erjzNF7ZuTvg","k":"Zzd7jUKWA/i/MMFhvaJp5Q"}],"type":"temporary"}
+#EXTINF:-1 ch-number="32" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" audio-track="3" tvg-name="Soccer Channel" tvg-id="Soccer.Channel.id" tvg-logo="https://www.visionplus.id/images/repository/771/576771-SQUARE-l.jpg", Soccer Channel
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"OcTcZwTPTO6i/UhjuI2KfQ","k":"Tp15VML/RnWSidpPyfAY6g"}],"type":"temporary"}
+#EXTINF:-1 ch-number="33" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.id" tvg-name="Sportstars" tvg-logo="https://www.visionplus.id/images/repository/774/576774-SQUARE-l.jpg", Sportstars
+https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"kR5yrfNpRq+9u0+AeCqDlA","k":"CK7FSKhRumS3Fyrn8Fy5HA"}],"type":"temporary"}
+#EXTINF:-1 ch-number="34" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.2.id" tvg-name="Sportstars 2" tvg-logo="https://www.visionplus.id/images/repository/775/576775-SQUARE-l.jpg", Sportstars 2
+https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
+
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"tXbl9fG8TLqoZuWw+s5aMA","k":"M3e+bDtfaI6+1ocxLJudlQ"}],"type":"temporary"}
+#EXTINF:-1 ch-number="36" catchup-type="append" catchup-days="7" catchup-source="?start=${start}&end=${end}" tvg-id="Sportstars.4.id" tvg-name="Sportstars 4" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_88.png", Sportstars 4
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
