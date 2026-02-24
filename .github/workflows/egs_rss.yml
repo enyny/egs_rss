@@ -1,0 +1,38 @@
+name: Generate epic_free_games.xml
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to force-push
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history to allow resetting
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests feedgen
+
+      - name: Generate RSS
+        run: python egs_rss.py
+
+      - name: Reset History and Force Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout --orphan temp-branch
+          git add .
+          git commit -m "Initial commit"
+          git push origin temp-branch:${{ github.ref_name }} --force
