@@ -1,0 +1,31 @@
+name: clean
+on:
+  workflow_dispatch: 
+  push:
+    paths:
+      - 'epic_free_games.xml'
+
+jobs:
+  reset-history:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Initial Commit
+        run: |
+          CURRENT_BRANCH=${{ github.ref_name }}
+          
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout --orphan temp-reset-branch
+
+          git add -A
+          git commit -m "Initial Commit"
+
+          git push origin temp-reset-branch:$CURRENT_BRANCH --force
